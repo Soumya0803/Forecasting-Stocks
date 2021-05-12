@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    
+    }
+  .heading{
+    margin-top: 8px;  
+    margin-bottom: 8px;
+    margin: auto ;
+    text-align: center;
+    color:rgb(5, 107, 107);
+  }
+  P{
+    margin-bottom: 10px;
+    margin-top: 12px;
+    font-size: 20px;
+    color:white;
+  }
+div{
+  margin-bottom: 10px;
+  }
+button {
+    background-color:#4c44447a; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  #forecast,#submit-stock-btn{
+    font-size: 14px;
+    padding: 8px 28px;
+  }
+  #submit-stock-btn
+  { 
+     float:right;
+     margin-right: 14px;
+  }
+.inputs {
+    width: 25vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    background-color: rgb(5, 107, 107);
+  }
+  .stockinput {
+    color:white;
+  }
+  .header{
+    margin-left: 10px;
+  
+  }
+  
+* {
+   margin: 0; 
+  font-family: "Roboto", sans-serif;
+  }
+  
+  
